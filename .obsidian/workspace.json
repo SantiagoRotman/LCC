@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "LCC/TallerTesina/resumenes/Teoría de las 4 causas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "Teoría de las 4 causas"
             }
           }
         ]
@@ -181,23 +181,27 @@
   },
   "active": "2ffb29508842a8f9",
   "lastOpenFiles": [
-    "LCC/TallerTesina/attachments/Descartes/pienso_luego_existo.pdf",
-    "LCC/TallerTesina/attachments/Descartes/Dicurso_completo.pdf",
-    "LCC/TallerTesina/attachments/Descartes/claves_descartes.pdf",
-    "LCC/TallerTesina/attachments/Descartes/Aportes_Descartes_clase.pdf",
-    "LCC/TallerTesina/attachments/Descartes/Aportes_Desacartes.pdf",
+    "LCC/TallerTesina/resumenes/Descartes, Discurso del Método.md",
+    "LCC/TallerTesina/resumenes/La refutación de la cinemática de Aristóteles.md",
+    "LCC/TallerTesina/resumenes/Renacimiento científico.md",
+    "LCC/TallerTesina/resumenes/Aristoteles_Platon.md",
+    "LCC/TallerTesina/resumenes/Teoría de las 4 causas.md",
+    "LCC/TallerTesina/resumenes",
     "LCC/TallerTesina/attachments/Aristoteles_Platon/teoria_4_causas.pdf",
     "LCC/TallerTesina/attachments/Aristoteles_Platon/Platon_aristoteles.pdf",
-    "LCC/TallerTesina/attachments/Aristoteles_Platon/aristoteles.pdf",
     "LCC/TallerTesina/attachments/Aristoteles_Platon/Alegoría de la caverna.pdf",
-    "LCC/TallerTesina/Tags/Platon.md",
+    "LCC/TallerTesina/Tags/Aristoteles.md",
+    "LCC/Sistemas Dinámicos/apunte_dsf.pdf",
     "LCC/TallerTesina/Tags/Mundo sensible.md",
     "LCC/TallerTesina/Tags/Mundo de las ideas.md",
     "LCC/TallerTesina/Tags/El problema del ser.md",
-    "LCC/TallerTesina/Tags/Aristoteles.md",
-    "LCC/TallerTesina/attachments/Descartes",
-    "LCC/TallerTesina/attachments/Aristoteles_Platon",
-    "LCC/TallerTesina/Resumen.md",
+    "LCC/TallerTesina/attachments/Descartes/Aportes_Descartes_clase.pdf",
+    "LCC/TallerTesina/Tags/Platon.md",
+    "LCC/TallerTesina/attachments/Aristoteles_Platon/aristoteles.pdf",
+    "Welcome.md",
+    "LCC/TallerTesina/attachments/Descartes/pienso_luego_existo.pdf",
+    "LCC/TallerTesina/attachments/Descartes/Dicurso_completo.pdf",
+    "LCC/TallerTesina/attachments/Descartes/claves_descartes.pdf",
     "LCC/IngSoft2/Tags/attachments/Pasted image 20250511185607.png",
     "LCC/IngSoft2/SetLog/attachments/Pasted image 20250720195208.png",
     "LCC/IngSoft2/SetLog/attachments/Pasted image 20250720194333.png",
@@ -215,7 +219,6 @@
     "LCC/IngSoft2/Testing.md",
     "LCC/IngSoft2/Diseño.md",
     "LCC/IngSoft1/attachments/Pasted image 20250525230041.png",
-    "LCC/IngSoft1/Z.md",
-    "Welcome.md"
+    "LCC/IngSoft1/Z.md"
   ]
 }

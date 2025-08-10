@@ -1,6 +1,6 @@
 Griegos Presocraticos => El mundo puede ser comprendido.. sin necesidad de los dioses
 
-Orden de alumnos (de primero a ultimo): Socrates -> Platon -> Aristoteles -> Alejandro Magno
+Orden de alumnos (de primero a ultimo): Socrates -> Platón -> Aristoteles -> Alejandro Magno
 # [[Platon]]
 
 [[El problema del Ser]]: Platón tenía una postura idealista, el ser de las cosas residía en el [[mundo de las ideas]], inmutable y eterno. Lo real se encontraba mas allá del [[mundo sensible]], en cambio continuo.
@@ -12,7 +12,7 @@ Orden de alumnos (de primero a ultimo): Socrates -> Platon -> Aristoteles -> Ale
 
 El **ser o sustancia** de una cosa, se divide en dos cuestiones, su esencia (sujeto) y sus accidentes (predicados). Ejemplo, Sócrates (Sujeto en si) mide 1,60m (predicado). <u>La esencia de una substancia se accede mediante el intelecto y sus accidentes mediante los sentidos.</u> Conocer algo, para Aristóteles, significa buscar su esencia mediante el intelecto.
 
-<font color="#ffc000">Al profe le gusta decir que aristoteles tomo las ideas de platon y se las inyecto a las cosas.</font>
+<font color="#ffc000">Al profe le gusta decir que aristoteles tomó las ideas de platon y se las inyecto a las cosas.</font>
 
 ## El cambio según Aristóteles
 
