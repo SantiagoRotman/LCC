@@ -22,22 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "ed5c39efd343d810",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ea617f8be676a79b",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -166,13 +150,23 @@
               "icon": "lucide-list",
               "title": "Outline of Welcome"
             }
+          },
+          {
+            "id": "31af79d14ef61dd4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,11 +175,47 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "2ffb29508842a8f9",
   "lastOpenFiles": [
+    "LCC/TallerTesina/attachments/Descartes/pienso_luego_existo.pdf",
+    "LCC/TallerTesina/attachments/Descartes/Dicurso_completo.pdf",
+    "LCC/TallerTesina/attachments/Descartes/claves_descartes.pdf",
+    "LCC/TallerTesina/attachments/Descartes/Aportes_Descartes_clase.pdf",
+    "LCC/TallerTesina/attachments/Descartes/Aportes_Desacartes.pdf",
+    "LCC/TallerTesina/attachments/Aristoteles_Platon/teoria_4_causas.pdf",
+    "LCC/TallerTesina/attachments/Aristoteles_Platon/Platon_aristoteles.pdf",
+    "LCC/TallerTesina/attachments/Aristoteles_Platon/aristoteles.pdf",
+    "LCC/TallerTesina/attachments/Aristoteles_Platon/Alegoría de la caverna.pdf",
+    "LCC/TallerTesina/Tags/Platon.md",
+    "LCC/TallerTesina/Tags/Mundo sensible.md",
+    "LCC/TallerTesina/Tags/Mundo de las ideas.md",
+    "LCC/TallerTesina/Tags/El problema del ser.md",
+    "LCC/TallerTesina/Tags/Aristoteles.md",
+    "LCC/TallerTesina/attachments/Descartes",
+    "LCC/TallerTesina/attachments/Aristoteles_Platon",
+    "LCC/TallerTesina/Resumen.md",
+    "LCC/IngSoft2/Tags/attachments/Pasted image 20250511185607.png",
+    "LCC/IngSoft2/SetLog/attachments/Pasted image 20250720195208.png",
+    "LCC/IngSoft2/SetLog/attachments/Pasted image 20250720194333.png",
+    "LCC/IngSoft2/Tags/Principio.md",
+    "LCC/IngSoft2/Tags/Parnas.md",
+    "LCC/IngSoft2/Tags/Criterio.md",
+    "LCC/IngSoft2/Tags/2Mil.md",
+    "LCC/IngSoft2/SetLog/SetLog - {log}.md",
+    "LCC/IngSoft2/Photos/Pasted image 20250503112245.png",
+    "LCC/IngSoft2/Photos/Pasted image 20250503111751.png",
+    "LCC/IngSoft2/Photos/Pasted image 20250422000831.png",
+    "LCC/IngSoft2/attachments/Pasted image 20250511185802.png",
+    "LCC/IngSoft2/attachments/Pasted image 20250511185654.png",
+    "LCC/IngSoft2/attachments/Pasted image 20250511185827.png",
+    "LCC/IngSoft2/Testing.md",
+    "LCC/IngSoft2/Diseño.md",
+    "LCC/IngSoft1/attachments/Pasted image 20250525230041.png",
+    "LCC/IngSoft1/Z.md",
     "Welcome.md"
   ]
 }
