@@ -4,21 +4,41 @@
     "type": "split",
     "children": [
       {
+        "id": "06b7eb9a9a1af106",
+        "type": "tabs",
+        "dimension": 52.4746192893401,
+        "children": [
+          {
+            "id": "4086d211ec17db20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LCC/TallerTesina/resumenes/Pensamiento Filosófico a partir de Descartes, racionalismo, empirismo, crítica, positivismo, positivismo lógico y crisis de las ciencias.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pensamiento Filosófico a partir de Descartes, racionalismo, empirismo, crítica, positivismo, positivismo lógico y crisis de las ciencias"
+            }
+          }
+        ]
+      },
+      {
         "id": "f3b74a9f1407a29a",
         "type": "tabs",
+        "dimension": 47.525380710659896,
         "children": [
           {
             "id": "2ffb29508842a8f9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "LCC/TallerTesina/resumenes/Teoría de las 4 causas.md",
-                "mode": "source",
-                "source": false
+                "file": "LCC/TallerTesina/attachments/Racionalidad Humana/evolucion_pensamiento.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Teoría de las 4 causas"
+              "icon": "lucide-file-text",
+              "title": "evolucion_pensamiento"
             }
           }
         ]
@@ -166,7 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,11 +201,20 @@
   },
   "active": "2ffb29508842a8f9",
   "lastOpenFiles": [
-    "LCC/TallerTesina/resumenes/Descartes, Discurso del Método.md",
+    "LCC/TallerTesina/resumenes/Pensamiento Filosófico a partir de Descartes, racionalismo, empirismo, crítica, positivismo, positivismo lógico y crisis de las ciencias.md",
+    "LCC/TallerTesina/attachments/Racionalidad Humana/evolucion_pensamiento.pdf",
     "LCC/TallerTesina/resumenes/La refutación de la cinemática de Aristóteles.md",
-    "LCC/TallerTesina/resumenes/Renacimiento científico.md",
     "LCC/TallerTesina/resumenes/Aristoteles_Platon.md",
+    "LCC/TallerTesina/resumenes/Renacimiento científico.md",
     "LCC/TallerTesina/resumenes/Teoría de las 4 causas.md",
+    "LCC/TallerTesina/resumenes/Descartes, Discurso del Método.md",
+    "Templates/Source Note.md",
+    "Templates/Full Note.md",
+    "Templates",
+    "LCC/TallerTesina/attachments/Racionalidad Humana",
+    "LCC/IngSoft2/Tags/2Mil.md",
+    "Galileo.md",
+    "Welcome.md",
     "LCC/TallerTesina/resumenes",
     "LCC/TallerTesina/attachments/Aristoteles_Platon/teoria_4_causas.pdf",
     "LCC/TallerTesina/attachments/Aristoteles_Platon/Platon_aristoteles.pdf",
@@ -198,17 +227,12 @@
     "LCC/TallerTesina/attachments/Descartes/Aportes_Descartes_clase.pdf",
     "LCC/TallerTesina/Tags/Platon.md",
     "LCC/TallerTesina/attachments/Aristoteles_Platon/aristoteles.pdf",
-    "Welcome.md",
-    "LCC/TallerTesina/attachments/Descartes/pienso_luego_existo.pdf",
-    "LCC/TallerTesina/attachments/Descartes/Dicurso_completo.pdf",
-    "LCC/TallerTesina/attachments/Descartes/claves_descartes.pdf",
     "LCC/IngSoft2/Tags/attachments/Pasted image 20250511185607.png",
     "LCC/IngSoft2/SetLog/attachments/Pasted image 20250720195208.png",
     "LCC/IngSoft2/SetLog/attachments/Pasted image 20250720194333.png",
     "LCC/IngSoft2/Tags/Principio.md",
     "LCC/IngSoft2/Tags/Parnas.md",
     "LCC/IngSoft2/Tags/Criterio.md",
-    "LCC/IngSoft2/Tags/2Mil.md",
     "LCC/IngSoft2/SetLog/SetLog - {log}.md",
     "LCC/IngSoft2/Photos/Pasted image 20250503112245.png",
     "LCC/IngSoft2/Photos/Pasted image 20250503111751.png",
