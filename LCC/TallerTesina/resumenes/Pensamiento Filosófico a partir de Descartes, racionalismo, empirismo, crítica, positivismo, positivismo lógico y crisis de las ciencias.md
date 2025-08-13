@@ -67,5 +67,12 @@ Esta idea de reformular los problema filosóficos como problemas lingüísticos 
 Esta filosofía entonces plantea que el mundo y el lenguaje tienen una misma estructura y la función de este es representar los hechos del mundo. Esto se puede ver como un isomorfismo donde cada cosa tiene un nombre y cada hecho tiene una proposición. Una vez que se adjudican los valores de verdad de las proposiciones atómicas se pueden obtener proposiciones más complejas con tablas de verdad, esta metodología es similar a la de Descartes con la diferencia que el isomorfismo de la realidad es con el lenguaje en lugar de con la razón. 
 
 ### Positivismo lógico:
-En el siglo XX surge una nueva corriente con la intención de renovar el espíritu positivista gracias a los trabajos de Wittgenstein. Un grupo de filósofos y científicos se juntaron en el "Círculo de Viena" con la intención de reflexionar sobre la filosofía del lenguaje y la filosofía de la ciencia.
+En el siglo XX surge una nueva corriente con la intención de renovar el espíritu positivista gracias a los trabajos de Wittgenstein. Un grupo de filósofos y científicos se juntaron en el "Círculo de Viena" con la intención de reflexionar sobre la filosofía del lenguaje y la filosofía de la ciencia. Se presentaron públicamente a través de un manifiesto que fue firmado por sus miembros reconocidos mundialmente; eventualmente, con la llegada de los nazis al poder el circulo se disolvió y varios miembros escaparon a Estados Unidos.
 
+Los positivistas lógicos plantean que los enunciados con sentido son solamente los lógicos o los matemáticos, en cuyo caso el valor de verdad del enunciado viene dado por el significado de los términos en este o por los enunciados empíricos que pueden ser verificados con la experiencia.
+
+Desde un punto de vista metodológico, los positivistas lógicos se enfocaron en estudiar la validez de los enunciados científicos ya logrados en lugar de nuevas teorías presentes, revistiéndolas de cierto carácter dogmático.
+
+Otra particularidad, su actitud anti-metafísica los llevo a cambiar el estatus de la filosofía al de la teoría del conocimiento, reduciéndola al análisis del lenguaje.
+
+### La crisis de las ciencias naturales
