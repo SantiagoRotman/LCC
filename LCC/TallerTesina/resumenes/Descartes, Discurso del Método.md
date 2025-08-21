@@ -1,5 +1,5 @@
 ## reference
-Apuntes sobre el Discurso del Método de René Descartes (Adolfo E. Trumper).
+[[Dicurso_completo.pdf|Apuntes sobre el Discurso del Método de René Descartes (Adolfo E. Trumper).]]
 ## resumen
 En estos apuntes hacemos un análisis, bastante detallado, del Discurso del método. Nuestro objetivo es que éstos sirvan de guía para la lectura y comprensión del Discurso. Para ello hemos desarrollado unos 20 puntos, los cuales consideramos que son clave para su entendimiento.
 
@@ -21,11 +21,11 @@ Descartes tenía una gran confianza en la matemáticas debido a la certeza y evi
 En su época sin embargo la matemática se usaba principalmente para la mecánica, por lo que Descartes buscó extenderla a un conocimiento más amplio.
 
 #### La búsqueda de un buen método:
-Descartes entonces decide abandonar el estudio de las letras, tomando la decision de construir él mismo la ciencia y viajar estudiando el libro de mundo. Mantiene una determinación por distinguir lo verdadero de  falso y por despojarse de las creencias adquiridas por su costumbre buscando construir su propio método.
+Descartes entonces decide abandonar el estudio de las letras, tomando la decisión de construir él mismo la ciencia y viajar estudiando a si mismo y el libro de mundo. Mantiene una determinación por distinguir lo verdadero de lo falso y por despojarse de las creencias adquiridas por su costumbre buscando construir su propio método ( Desconfía de la costumbre y el ejemplo).
 
 ### Parte II
 #### Los 4 preceptos:
-Antes de formular sus preceptos Descartes hace una alegoría entre la belleza de las ciudades planeadas y no planeadas y la veracidad del conocimiento derivado de la razón y el derivado de la opinion. Luego menciona sus estudios de la filosofía, la lógica y las matemáticas y su intención de formular un método que incorpore las ventajas y excluya los defectos de estas tres ciencias.
+Antes de formular sus preceptos Descartes hace una alegoría entre la belleza de las ciudades planeadas y no planeadas y la veracidad del conocimiento derivado de la razón y el derivado de la opinión. Luego menciona sus estudios de la filosofía, la lógica y las matemáticas y su intención de formular un método que incorpore las ventajas y excluya los defectos de estas tres ciencias.
 
 ##### 1° Precepto:
 >No tomar por verdadero nada que que la evidencia no respalde. 
@@ -48,7 +48,8 @@ Este precepto se llama **principio de síntesis** o **hipótesis constructivista
 ##### 4° Precepto:
 > *"hacer en todo unos recuentos o recesiones tan completas y unas revisiones tan generales, que llegase a estar seguro de no haber omitido nada."*
 
-#### El manifiesto racionalista de Descartes:
+#### El manifiesto racionalista de Descartes: 
+Lo que propone descartes con los preceptos es la discipliná científica, que hoy tomamos por natural.
 
 ### Parte III
 #### Las reglas morales:

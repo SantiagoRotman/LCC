@@ -35,7 +35,7 @@ Causa Esencial (esencia potencial):
 - Le da
 - es la esencia que por ser esencia es causa de algo (mesa, silla o casa).
 - la forma puede estar realizada en cierta medida en la cosa (niño/madurez; planta/árbol)
-Causa Eficiente (esencias potenciales -> esencia en acto): 
+Causa Eficiente (esencias potenciales -> ser en acto): 
 - es el motor o estímulo que desencadena el desarrollo del proceso.
 - la esencia también puede ser causa eficiente (ver más adelante).
 - el padre del niño puede ser causa eficiente del niño
@@ -43,7 +43,7 @@ Causa Eficiente (esencias potenciales -> esencia en acto):
 - mientras que la causa final opera desde adelante,
 - la causa eficiente opera desde atrás.
 - la siembra y el riego son causa eficiente (semilla/árbol)
-Causa Final (esencia en acto final): 
+Causa Final (ser en acto final): 
 - es la meta o finalidad a la que el cambio tiende.
 - la esencia está relacionada con la causa final.
 - no solo los seres vivos sino todas las cosas tienden a un finalidad
@@ -51,12 +51,3 @@ Causa Final (esencia en acto final):
 
 ### Cosmovisión Aristotélica
 No le dimos mucha bola, preguntar a chatgpt
-
-## Descartes
-
-### Discurso
-El discurso fue un prologo de sus estudios **expuso su nuevo método** y demostró racionalmente su validez con su nueva filosofía
-
-#### Parte 1
-Es una autobiografía intelectual, donde se manifiesta insatisfecho por su formación, compuesta de Aristóteles y la filosofía escolástica.
-
