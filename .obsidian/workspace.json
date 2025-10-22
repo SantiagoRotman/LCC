@@ -4,44 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "06b7eb9a9a1af106",
+        "id": "00987b366f556143",
         "type": "tabs",
-        "dimension": 52.4746192893401,
         "children": [
           {
-            "id": "4086d211ec17db20",
+            "id": "264905cc0c495656",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LCC/TallerTesina/resumenes/Pensamiento Filosófico a partir de Descartes, racionalismo, empirismo, crítica, positivismo, positivismo lógico y crisis de las ciencias.md",
+                "file": "LCC/Seguridad Informatica/Practica/Plancha 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pensamiento Filosófico a partir de Descartes, racionalismo, empirismo, crítica, positivismo, positivismo lógico y crisis de las ciencias"
+              "title": "Plancha 1"
             }
-          }
-        ]
-      },
-      {
-        "id": "f3b74a9f1407a29a",
-        "type": "tabs",
-        "dimension": 47.525380710659896,
-        "children": [
+          },
           {
-            "id": "2ffb29508842a8f9",
+            "id": "ededed19a9348797",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "LCC/TallerTesina/attachments/Racionalidad Humana/evolucion_pensamiento.pdf"
+                "file": "Charlas/CASIC2025/Workshops/SegInfo.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "evolucion_pensamiento"
+              "icon": "lucide-file",
+              "title": "SegInfo"
+            }
+          },
+          {
+            "id": "4608092258f2e3fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Charlas/CASIC2025/Workshops/Innovación.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Innovación"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 211.5
   },
   "right": {
     "id": "4795576490c21324",
@@ -186,10 +195,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 592.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -199,50 +209,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ffb29508842a8f9",
+  "active": "4608092258f2e3fa",
   "lastOpenFiles": [
-    "LCC/TallerTesina/resumenes/Pensamiento Filosófico a partir de Descartes, racionalismo, empirismo, crítica, positivismo, positivismo lógico y crisis de las ciencias.md",
+    "Charlas/CASIC2025/Ing Soft basada en la evidencia/Resumen.md",
+    "Charlas/CASIC2025/Workshops/Innovación.md",
+    "Charlas/CASIC2025/Workshops/IA y Agentes.md",
+    "Untitled.md",
+    "LCC/IngSoft2/attachments/diseno-a.pdf",
+    "Charlas/CASIC2025/Workshops/TMD.md",
+    "Charlas/CASIC2025/Workshops/SegInfo.md",
+    "Charlas/CASIC2025/Workshops",
+    "LCC/Seguridad Informatica/Practica/Plancha 1.md",
+    "Charlas/CASIC2025/Ing Soft basada en la evidencia",
+    "Charlas/CASIC2025",
+    "Charlas",
+    "LCC/Seguridad Informatica/Resumen.md",
+    "LCC/Seguridad Informatica/Practica",
+    "LCC/Seguridad Informatica",
+    "LCC/TallerTesina/resumenes/Resumen Descartes.md",
+    "LCC/TallerTesina/attachments/Descartes/Dicurso_completo.pdf",
+    "LCC/TallerTesina/resumenes/Descartes, Discurso del Método.md",
     "LCC/TallerTesina/attachments/Racionalidad Humana/evolucion_pensamiento.pdf",
+    "LCC/TallerTesina/resumenes/Pensamiento Filosófico a partir de Descartes, racionalismo, empirismo, crítica, positivismo, positivismo lógico y crisis de las ciencias.md",
     "LCC/TallerTesina/resumenes/La refutación de la cinemática de Aristóteles.md",
     "LCC/TallerTesina/resumenes/Aristoteles_Platon.md",
     "LCC/TallerTesina/resumenes/Renacimiento científico.md",
     "LCC/TallerTesina/resumenes/Teoría de las 4 causas.md",
-    "LCC/TallerTesina/resumenes/Descartes, Discurso del Método.md",
     "Templates/Source Note.md",
     "Templates/Full Note.md",
     "Templates",
-    "LCC/TallerTesina/attachments/Racionalidad Humana",
     "LCC/IngSoft2/Tags/2Mil.md",
     "Galileo.md",
     "Welcome.md",
-    "LCC/TallerTesina/resumenes",
-    "LCC/TallerTesina/attachments/Aristoteles_Platon/teoria_4_causas.pdf",
-    "LCC/TallerTesina/attachments/Aristoteles_Platon/Platon_aristoteles.pdf",
-    "LCC/TallerTesina/attachments/Aristoteles_Platon/Alegoría de la caverna.pdf",
     "LCC/TallerTesina/Tags/Aristoteles.md",
-    "LCC/Sistemas Dinámicos/apunte_dsf.pdf",
     "LCC/TallerTesina/Tags/Mundo sensible.md",
     "LCC/TallerTesina/Tags/Mundo de las ideas.md",
     "LCC/TallerTesina/Tags/El problema del ser.md",
-    "LCC/TallerTesina/attachments/Descartes/Aportes_Descartes_clase.pdf",
     "LCC/TallerTesina/Tags/Platon.md",
-    "LCC/TallerTesina/attachments/Aristoteles_Platon/aristoteles.pdf",
     "LCC/IngSoft2/Tags/attachments/Pasted image 20250511185607.png",
     "LCC/IngSoft2/SetLog/attachments/Pasted image 20250720195208.png",
     "LCC/IngSoft2/SetLog/attachments/Pasted image 20250720194333.png",
     "LCC/IngSoft2/Tags/Principio.md",
-    "LCC/IngSoft2/Tags/Parnas.md",
-    "LCC/IngSoft2/Tags/Criterio.md",
-    "LCC/IngSoft2/SetLog/SetLog - {log}.md",
     "LCC/IngSoft2/Photos/Pasted image 20250503112245.png",
     "LCC/IngSoft2/Photos/Pasted image 20250503111751.png",
     "LCC/IngSoft2/Photos/Pasted image 20250422000831.png",
     "LCC/IngSoft2/attachments/Pasted image 20250511185802.png",
     "LCC/IngSoft2/attachments/Pasted image 20250511185654.png",
     "LCC/IngSoft2/attachments/Pasted image 20250511185827.png",
-    "LCC/IngSoft2/Testing.md",
-    "LCC/IngSoft2/Diseño.md",
-    "LCC/IngSoft1/attachments/Pasted image 20250525230041.png",
-    "LCC/IngSoft1/Z.md"
+    "LCC/IngSoft1/attachments/Pasted image 20250525230041.png"
   ]
 }
