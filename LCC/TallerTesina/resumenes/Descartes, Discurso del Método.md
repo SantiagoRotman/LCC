@@ -4,7 +4,7 @@
 En estos apuntes hacemos un análisis, bastante detallado, del Discurso del método. Nuestro objetivo es que éstos sirvan de guía para la lectura y comprensión del Discurso. Para ello hemos desarrollado unos 20 puntos, los cuales consideramos que son clave para su entendimiento.
 
 status: #done 
-tags: [[Descartes]]
+tags: [[Resumen Descartes]]
 ## notes
 ### Parte I
 #### Motivación:

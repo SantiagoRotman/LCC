@@ -73,6 +73,6 @@ Los positivistas lógicos plantean que los enunciados con sentido son solamente 
 
 Desde un punto de vista metodológico, los positivistas lógicos se enfocaron en estudiar la validez de los enunciados científicos ya logrados en lugar de nuevas teorías presentes, revistiéndolas de cierto carácter dogmático.
 
-Otra particularidad, su actitud anti-metafísica los llevo a cambiar el estatus de la filosofía al de la teoría del conocimiento, reduciéndola al análisis del lenguaje.
+Otra particular  idad, su actitud anti-metafísica los llevo a cambiar el estatus de la filosofía al de la teoría del conocimiento, reduciéndola al análisis del lenguaje.
 
 ### La crisis de las ciencias naturales
