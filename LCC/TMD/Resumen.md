@@ -97,8 +97,44 @@ Estos métodos también para descubrir información sobre las variables como imp
 #### Métodos de selección de variables
 * **Univariados**: Consideran de a una variable para determinar su utilidad 
 * **Multivariados:** Consideran subconjuntos de variables al mismo tiempo. 
-* **Filtros:** Ordenan las variables de acuerdo a un criterio de importancia independientemente de la predicción o wrappers (usan el predictor final para evaluar la utilidad de las variables) Los filtros suelen ser univariados mientras que los wrappers suelen ser multivariados.
+* **Filtros:** Ordenan las variables de acuerdo a un criterio de importancia independientemente de la predicción 
+* **Wrappers**: Usan el predictor final para evaluar la utilidad de las variables
+Los filtros suelen ser univariados mientras que los wrappers suelen ser multivariados.
 
-### Lista de compras:
-- pene venoso
-- mas pene venoso
+Realizar una búsqueda exhaustiva en las posibles combinaciones de variables tiene dos problemas. El primero es la explosión combinatoria de los casos, lo que usualmente lo vuelve computacionalmente inviable. Aún así, un segundo inconveniente es que hacer pruebas exhaustivas puede llevar a falsos predictores en casos en las que una combinación tiene valores óptimos por sobreajuste.
+
+### Probabilistic and Generative Classification Models
+
+Hay tres soluciones comunes al problema de clasificación 
+* **Aprender una regla de clasificación directamente sobre los datos:** Arboles, redes neuronales, etc.
+* **Aprender la probabilidad de cada clase dado el input P(y/X):** regresión lógica, redes neuronales probabilísticas (softmax), etc.
+* **Crear un modelo probabilístico para cada clase P(y,X):** La idea es usar estos modelos para estimar con cual de las dos clases es mas probable generar el punto de input. Ejemplos Naive Bayes
+
+Mas concretamente los modelos probabilísticos generativos generan las probabilidades de conjuntas para cada clase y la entrada X=(x1,x2,...xn). Pero estimar la probabilidad conjunta para todas las variables es en general imposible ya que los espacios se vacían en altas dimensiones
+
+#### Naïve Bayes 
+Asume que todas las variables son independientes entre si, entonces aplicando la regla de la cadena. P(y,x1,x2,...,xn) se puede transformar en P(x1|y)P(x2|y)…P(xn|y) P(y). Para evitar la perdida de precisión por la multiplicación de muchos valores de diferentes escalas en punto flotante se usan logaritmos para convertilo en una suma.
+
+Un problema es cuando alguna probabilidad da 0 te anula la cuenta aunque en realidad casi nunca es 0 sino muy chico. Para remediar esto se pueden añadir registros virtuales.
+
+Tambien se puede adaptar el algoritmo para variables continuas, usando la distribución normal para modelar la probabilidad condicional. Usando funciones para cada variable y clase construidas estimando la media y la varianza de las variables para cada clase. Otra manera es usar histogramas para discretizar las variables
+
+### [[Aprendizaje por instancias]] o lazy 
+
+No aprende una función explicita de los datos, si no que crea una función implícita local. Esta función se calcula al momento de evaluar un dato, por eso lazy.
+* El costo de clasificar es mayor, pero no tiene consto de entrenar.
+
+**KNN:** Dado un x nuevo busca los k puntos mas cercanos y si el problema es de:
+* Clasificación: Le asigna a x la clase mayoritaria de sus vecinos.
+* Regresión: Usa una función simple sobre los valores de los vecinos, como el promedio.
+
+Sesgo o bias inductivo: Asume que el espacio de las features es continuo localmente para las clases
+
+Una mejora simple es pesar a los vecinos por la distancia a x.
+
+**Locally Weighted Regression:** Construye funciones simples locales *explicitas* 
+* Regresión lineal: Se crea una función $f_L(x) = w_0 + w_1 x_1 + ...+ w_n x_n$ y se usa una función de error para minimizarla y encontrar las w
+* RBF: Se usa una función radial como kernel y luego se hace una regresión lineal sobre los puntos dados por estas funciones de kernel
+
+### [[Transformers]]
+

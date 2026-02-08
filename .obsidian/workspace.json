@@ -4,42 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "fd3e8aba3f149efc",
+        "id": "b591d7c933b215c1",
         "type": "tabs",
         "children": [
           {
-            "id": "14e28cdf66992f8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LCC/TMD/Resumen.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Resumen"
-            }
-          }
-        ]
-      },
-      {
-        "id": "f8e1fa1a423c98d6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c7dedd281b6563fe",
+            "id": "4a64e34a77682567",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "LCC/TMD/ResumenAjeno.pdf"
+                "file": "LCC/Complementos2/ComplementosII.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "ResumenAjeno"
+              "title": "ComplementosII"
+            }
+          },
+          {
+            "id": "175924d3689bf372",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/plugins/obsidian-excalidraw-plugin/data.json",
+                "bFile": ".obsidian/plugins/obsidian-excalidraw-plugin/data.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: data.json"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4795576490c21324",
@@ -113,7 +107,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +116,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks"
             }
           },
           {
@@ -185,66 +178,67 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5
+    "width": 329.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "14e28cdf66992f8d",
+  "active": "175924d3689bf372",
   "lastOpenFiles": [
-    "LCC/TMD/ResumenAjeno.pdf",
+    "LCC/Complementos2/ComplementosII.pdf",
+    "LCC/Complementos2/Practica/Examenes/Complementos_de_matemática_2 (8).pdf",
+    "Pasted Image 20260207152319_774.png",
+    "Pasted Image 20260207124744_626.png",
+    "LCC/Complementos2/Practica/EjResueltosP1-CM2.pdf",
+    "LCC/Complementos2/Practica/Ejs/Practica1.md",
+    "LCC/Complementos2/Practica/solucionesp2.pdf",
+    "LCC/Complementos2/Practica/Ejs/Drawing 2026-02-07 12.39.47.excalidraw.md",
+    "LCC/Complementos2/Practica/Ejs",
+    "LCC/Complementos2/Practica/Examenes/CM2___Prácticas (5).pdf",
+    "LCC/Complementos2/Practica/Examenes/CM2___Prácticas (4).pdf",
+    "LCC/Complementos2/Resumen.md",
+    "LCC/Complementos2/Practica/Examenes",
+    "LCC/Complementos2/Practica/SolucionParcial1.pdf",
+    "LCC/Complementos2/Practica",
+    "LCC/Comunicaciones/IPv4.md",
+    "LCC/Comunicaciones/Capa de enlace.md",
     "LCC/TMD/Resumen.md",
-    "LCC/TMD/Tags/Preparacion de datos.md",
-    "LCC/TMD/Tags/Visualización de datos.md",
-    "Untitled.base",
-    "LCC/TMD/Tags/Preparación de datos.md",
-    "LCC/TMD/Tags",
-    "LCC/Seguridad Informatica/Practica/Plancha 1.md",
-    "LCC/TMD",
-    "LCC/TallerTesina/resumenes/Resumen Descartes.md",
+    "LCC/TMD/Tags/Transformers.md",
+    "LCC/TMD/Tags/Aprendizaje por instancias.md",
     "conflict-files-obsidian-git.md",
+    "LCC/TallerTesina/resumenes/Resumen Descartes.md",
+    "LCC/TMD/Tags/Visualización de datos.md",
+    "LCC/TMD/Tags/Preparacion de datos.md",
+    "LCC/Seguridad Informatica/Resumen.md",
+    "LCC/Seguridad Informatica/Practica/Plancha 1.md",
+    "Charlas/CASIC2025/Workshops/TMD.md",
     "Charlas/CASIC2025/Workshops/SegInfo.md",
     "Charlas/CASIC2025/Workshops/Innovación.md",
-    "LCC/TallerTesina/resumenes/Infocracia.md",
-    "LCC/TallerTesina/resumenes/Giro lingüístico-pragmático.md",
-    "LCC/TallerTesina/attachments/Racionalidad Humana/giro_linguistico_pragmatico.pdf",
-    "LCC/TallerTesina/attachments/Racionalidad Humana/Pasted image 20250820170217.png",
-    "LCC/TallerTesina/attachments/Racionalidad Humana/Pasted image 20250820005506.png",
-    "LCC/TallerTesina/attachments/Infocracia.pdf",
-    "LCC/Comunicaciones/Capa de enlace.md",
-    "LCC/Comunicaciones/Biblia_de_Costa.pdf",
-    "LCC/Comunicaciones",
-    "Charlas/CASIC2025/Ing Soft basada en la evidencia/Resumen.md",
     "Charlas/CASIC2025/Workshops/IA y Agentes.md",
-    "Untitled.md",
-    "LCC/IngSoft2/attachments/diseno-a.pdf",
-    "Charlas/CASIC2025/Workshops/TMD.md",
-    "Charlas/CASIC2025/Workshops",
-    "LCC/Seguridad Informatica/Resumen.md",
-    "LCC/TallerTesina/resumenes/Descartes, Discurso del Método.md",
-    "LCC/TallerTesina/resumenes/Pensamiento Filosófico a partir de Descartes, racionalismo, empirismo, crítica, positivismo, positivismo lógico y crisis de las ciencias.md",
-    "LCC/TallerTesina/resumenes/La refutación de la cinemática de Aristóteles.md",
-    "LCC/TallerTesina/resumenes/Aristoteles_Platon.md",
-    "LCC/TallerTesina/resumenes/Renacimiento científico.md",
-    "LCC/TallerTesina/resumenes/Teoría de las 4 causas.md",
+    "Charlas/CASIC2025/Ing Soft basada en la evidencia/Resumen.md",
     "Templates/Source Note.md",
     "Templates/Full Note.md",
+    "Templates 1/Source Note.md",
+    "Templates 1/Full Note.md",
+    "Untitled.md",
+    "pensadores.md",
+    "LCC/TallerTesina/attachments/Racionalidad Humana/Pasted image 20250820005506.png",
+    "LCC/TallerTesina/attachments/Racionalidad Humana/Pasted image 20250820170217.png",
     "LCC/IngSoft2/Tags/attachments/Pasted image 20250511185607.png",
     "LCC/IngSoft2/SetLog/attachments/Pasted image 20250720195208.png",
     "LCC/IngSoft2/SetLog/attachments/Pasted image 20250720194333.png",
     "LCC/IngSoft2/Photos/Pasted image 20250503112245.png",
     "LCC/IngSoft2/Photos/Pasted image 20250503111751.png",
-    "LCC/IngSoft2/Photos/Pasted image 20250422000831.png",
-    "LCC/IngSoft2/attachments/Pasted image 20250511185802.png",
-    "LCC/IngSoft2/attachments/Pasted image 20250511185654.png"
+    "LCC/IngSoft2/Photos/Pasted image 20250422000831.png"
   ]
 }
