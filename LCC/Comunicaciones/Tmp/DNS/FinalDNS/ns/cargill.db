@@ -1,0 +1,21 @@
+TTL 1D
+Origin cargill.com
+@IN SOA ns hostmaster (20230611,
+                        1h,
+                        1h,
+                        1h,
+                        1h,
+                        1h)
+        IN NS ns
+        IN MX 10 info
+        IN MX 20 consult.trade
+
+www IN A 3.229.231.147
+ns IN CNAME www
+info IN A 3.229.231.146
+
+dns.matl IN A 3.229.231.191
+matl IN NS dns.matl #glue record
+
+comodity.trade IN A 3.229.231.143
+consult.trade IN A 3.229.231.140

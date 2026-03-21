@@ -1,0 +1,79 @@
+named.conf ns1
+
+zone "basel.net"{
+    type master;
+    file "etc/bind/db.basel";
+    allow-query {any};
+    allow-trasansfer {slaves};
+}
+
+zone "0.0.0.1.4.9.2.2.c.7.6.0.1.0.0.2.ip6.arpa"{
+    type slave;
+    masters {2a03:2880:f113:8083:face:b00c:0:25de};
+    file "etc/bind/rev.basel1";
+}
+
+
+;----------------------------
+named.conf ns2
+
+zone "basel.net"{
+    type slave;
+    masters {2001:67c:2294:1000:0:0:0:f199};
+    file "etc/bind/db.basel";
+
+}
+
+zone "0.0.0.1.4.9.2.2.c.7.6.0.1.0.0.2.ip6.arpa"{
+    type master;
+    file "etc/bind/rev.basel1";
+    allow-query {any};
+    allow-trasansfer {slaves};
+}
+
+zone "3.8.0.8.3.1.1.f.0.8.8.2.0.3.a.2.ip6.arpa" {
+    type master;
+    file "/etc/bind/rev.basel2";
+    allow-query {any};
+    allow-trasansfer {slaves};
+}
+
+;----------------------------
+db.basel de ns1
+
+$TTL 1D
+$ORIGIN basel.net
+
+@ IN SOA ns1 hostname (2020111801
+                        5h
+                        15m
+                        3W12h
+                        2h)
+        IN NS ns1
+        IN NS ns2.ba
+        IN MX 10 ms.ros
+
+www     IN AAAA 2001:67c:2294:1000:0:0:0:f199
+ns1     IN CNAME www
+ns2.ba  IN AAAA 2a03:2880:f113:8083:face:b00c:0:25de
+mx.ros  IN AAAA 2001:67c:2294:1000:0:0:fe:f199
+
+
+;----------------------------
+rev.basel1 de ns1
+
+$TTL 1D
+$ORIGIN 0.0.0.1.4.9.2.2.c.7.6.0.1.0.0.2.IP6.ARPA
+
+@ IN SOA ns2.ba.basel.net. hostname.ba.basel.net. (2020111801
+                                            5h
+                                            15m
+                                            3W12h
+                                            2h)
+        IN NS ns2.ba.basel.net.
+        IN NS ns1.basel.net.
+        IN MX 10 mx.ros.basel.net.
+
+9.9.1.f.0.0.0.0.0.0.0.0.0.0.0 IN PTR www
+9.9.1.f.0.0.0.0.0.0.0.0.0.0.0 IN PTR ns1
+9.9.1.f.e.f.0.0.0.0.0.0.0.0.0 IN PTR mx.ros

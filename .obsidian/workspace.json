@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "b591d7c933b215c1",
+        "id": "941a4727122d8ec3",
         "type": "tabs",
         "children": [
           {
-            "id": "4a64e34a77682567",
+            "id": "c1ea1f6f8d840148",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "LCC/Complementos2/ComplementosII.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "ComplementosII"
-            }
-          },
-          {
-            "id": "175924d3689bf372",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/plugins/obsidian-excalidraw-plugin/data.json",
-                "bFile": ".obsidian/plugins/obsidian-excalidraw-plugin/data.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: data.json"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -57,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -154,13 +137,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
+                "file": "LCC/Comunicaciones/Practica/IPv4/Resolucion_N2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Esquema de Resolucion_N2"
             }
           },
           {
@@ -172,46 +155,65 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "0738ca8988baecf5",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "LCC/Comunicaciones/Biblia_de_Costa.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Biblia_de_Costa"
+            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 329.5
+    "width": 967.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
       "obsidian-git:Open Git source control": false,
-      "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "175924d3689bf372",
+  "active": "31af79d14ef61dd4",
   "lastOpenFiles": [
-    "LCC/Complementos2/ComplementosII.pdf",
-    "LCC/Complementos2/Practica/Examenes/Complementos_de_matemática_2 (8).pdf",
-    "Pasted Image 20260207152319_774.png",
+    "LCC/Comunicaciones/Practica/IPv4/Practica_N2_v2.pdf",
+    "LCC/Comunicaciones/attachments/Pasted image 20260314164204.png",
     "Pasted Image 20260207124744_626.png",
-    "LCC/Complementos2/Practica/EjResueltosP1-CM2.pdf",
-    "LCC/Complementos2/Practica/Ejs/Practica1.md",
-    "LCC/Complementos2/Practica/solucionesp2.pdf",
-    "LCC/Complementos2/Practica/Ejs/Drawing 2026-02-07 12.39.47.excalidraw.md",
-    "LCC/Complementos2/Practica/Ejs",
-    "LCC/Complementos2/Practica/Examenes/CM2___Prácticas (5).pdf",
-    "LCC/Complementos2/Practica/Examenes/CM2___Prácticas (4).pdf",
-    "LCC/Complementos2/Resumen.md",
-    "LCC/Complementos2/Practica/Examenes",
-    "LCC/Complementos2/Practica/SolucionParcial1.pdf",
-    "LCC/Complementos2/Practica",
+    "Pasted Image 20260207152319_774.png",
     "LCC/Comunicaciones/IPv4.md",
     "LCC/Comunicaciones/Capa de enlace.md",
+    "LCC/Comunicaciones/attachments/Pasted image 20260314164540.png",
+    "LCC/Comunicaciones/attachments/Pasted Image 20260320191234_185.png",
+    "LCC/Comunicaciones/attachments/Pasted Image 20260320193738_582.png",
+    "LCC/Comunicaciones/attachments",
+    "LCC/Comunicaciones/Practica/IPv4/Resolucion_N2.md",
+    "LCC/Comunicaciones/Tmp - Acceso directo.lnk",
+    "LCC/Comunicaciones/Tmp/Resumen(Biblia de Costa).pdf",
+    "LCC/Comunicaciones/Tmp/redes_de_computadoras-freelibros-org.pdf",
+    "LCC/Comunicaciones/Tmp/PracticaResueltaClase_N1_v1.pdf",
+    "LCC/Comunicaciones/Tmp/PracticaN3_Clase.pdf",
+    "LCC/Comunicaciones/Tmp/PracticaN2_Clase.pdf",
+    "LCC/Comunicaciones/Tmp/PracticaN1_Clase.pdf",
+    "LCC/Comunicaciones/Tmp/Practica_N3_v1.pdf",
+    "LCC/Comunicaciones/Tmp/Practica_N2_v2.pdf",
+    "Sin título.canvas",
+    "LCC/Complementos2/Practica/Ejs/Practica1.md",
+    "LCC/Complementos2/Practica/Ejs/Drawing 2026-02-07 12.39.47.excalidraw.md",
+    "LCC/Complementos2/Resumen.md",
     "LCC/TMD/Resumen.md",
     "LCC/TMD/Tags/Transformers.md",
     "LCC/TMD/Tags/Aprendizaje por instancias.md",
@@ -231,14 +233,9 @@
     "Templates 1/Source Note.md",
     "Templates 1/Full Note.md",
     "Untitled.md",
-    "pensadores.md",
     "LCC/TallerTesina/attachments/Racionalidad Humana/Pasted image 20250820005506.png",
     "LCC/TallerTesina/attachments/Racionalidad Humana/Pasted image 20250820170217.png",
     "LCC/IngSoft2/Tags/attachments/Pasted image 20250511185607.png",
-    "LCC/IngSoft2/SetLog/attachments/Pasted image 20250720195208.png",
-    "LCC/IngSoft2/SetLog/attachments/Pasted image 20250720194333.png",
-    "LCC/IngSoft2/Photos/Pasted image 20250503112245.png",
-    "LCC/IngSoft2/Photos/Pasted image 20250503111751.png",
-    "LCC/IngSoft2/Photos/Pasted image 20250422000831.png"
+    "LCC/IngSoft2/SetLog/attachments/Pasted image 20250720195208.png"
   ]
 }

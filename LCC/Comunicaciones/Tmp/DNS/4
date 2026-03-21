@@ -1,0 +1,128 @@
+; Named.conf ns1
+
+zone "music.com" {
+    type master;
+    file "/etc/bind/db.music";
+}
+
+zone "235.168.192.in-addr.arpa" {
+    type master;
+    file "/etc/bind/rev.music";
+}
+
+zone "greenday.music.com" {
+    type slave;
+    masters {192.168.235.160};
+    file "/etc/bind/db.greenday.music";
+}
+
+zone "128/25.235.168.192.in-addr.arpa" {
+    type slave;
+    masters {192.168.235.160};
+    file "/etc/bind/rev.greenday.music";
+}
+
+zone "acme.ar" {
+    type slave;
+    masters {192.168.254.237};
+    file "/etc/bind/db.acme";
+}
+
+; Named.conf ns.greenday
+
+zone "greenday.music.com" {
+    type master;
+    file "/etc/bind/db.greenday.music";
+}
+
+zone "128/25.235.168.192.in-addr.arpa" {
+    type master;
+    file "/etc/bind/rev.greenday.music";
+}
+
+; Named.conf ns2
+
+zone "music.com" {
+    type slave;
+    type slave;
+    masters {192.168.235.1};
+    file "/etc/bind/db.music";
+}
+
+zone "235.168.192.in-addr.arpa" {
+    type slave;
+    masters {192.168.235.1};
+    file "/etc/bind/rev.music";
+}
+
+;db.music ns1 o ns2
+
+$TTL 1d
+$ORIGIN music.com.
+
+@ IN SOA ns1.music.com. hostname.music.com. (201110801; 5h; 15m; 3W12h; 2h20m;)
+    )
+    IN NS ns1
+    IN NS ns2
+    IN MX 10 mx
+
+ns1         IN A 192.168.235.1
+www         IN CNAME ns1
+ns2         IN A 192.168.235.2
+mx          IN A 192.168.235.16
+
+ns.greenday IN A 192.168.235.160
+
+Greenday    IN NS ns1
+            IN NS ns.greenday
+
+acme.ar.    IN A 192.168.254.237
+
+; db.greenday.music ns.greenday
+
+$TTL 1d
+$ORIGIN greenday.music.com.
+
+@ IN SOA ns hostname (201110801; 5h; 15m; 3W12h; 2h20m;)
+    )
+    IN NS ns
+    IN NS ns1.music.com.
+    IN MX 100 mx
+
+ns          IN A 192.168.235.160
+mx          IN A 192.168.235.161
+
+; rev.music ns.greenday
+
+$TTL 1d
+$ORIGIN 235.168.192.IN-ADRR.ARPA.
+
+@ IN SOA ns1.music.com. hostname.music.com. (201110801; 5h; 15m; 3W12h; 2h20m;)
+    )
+    IN NS ns1.music.com.
+    IN NS ns2.music.com.
+    IN NS ns.google.com.
+
+1           IN PTR ns1.music.com.
+2           IN PTR ns2.music.com.
+16          IN PTR mx.music.com.
+
+128/25      IN NS ns.greenday.music.com.
+            IN NS ns1.music.com.
+
+129         IN CNAME 129/25
+160         IN CNAME 160/25.235.168.192.in-addr-arpa
+161         IN CNAME 161/25.235.168.192.in-addr-arpa
+
+; rev.greenday.music ns.greenday
+
+$TTL 1d
+$ORIGIN 128/25.235.168.192.IN-ADRR.ARPA.
+
+@ IN SOA ns.greenday.music.com. hostname.greenday.music.com. (201110801; 5h; 15m; 3W12h; 2h20m;)
+    )
+    IN NS ns.greenday.music.com.
+    IN NS ns1.music.com.
+
+160         IN PTR ns.greenday.music.com.
+161         IN PTR mx.greenday.music.com.

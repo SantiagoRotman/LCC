@@ -1,0 +1,52 @@
+named.conf
+
+view "internal"{
+match-clients {FDe4:8dba:84e1::/64};
+allow-recursion yes;
+
+zone "electrolux.com.ar"{
+    type master;
+    file "etc/bind/db.electrolux.internal"
+};
+
+zone "0.0.0.0.1.e.2.8.a.b.d.8.4.e.D.F.ip6.arpa"{
+    type master;
+    file "etc/bind/rev.internal";
+};
+};
+
+view "external"{
+match-clients {2620:149:ae0::/64};
+allow-recursion yes;
+
+zone "electrolux.com.ar"{
+    type master;
+    file "etc/bind/db.electrolux.external";
+};
+
+zone "0.0.0.0.0.0.e.a.9.4.1.2.0.6.2.ip6.arpa"{
+    type master;
+    file "etc/bind/rev.external";
+};
+};
+
+
+;--------------
+db.electrolux.external
+
+$TTL 1D
+$ORIGIN electrolux.com.ar
+
+@ IN SOA dns hostname (2020111801
+                        5h
+                        15m
+                        3W12h
+                        2h)
+        IN NS dns
+        IN NS dns2.gafa.com.ar.
+        IN MX 10 info@electrolux.com.ar.
+
+www IN AAAA 2620:149:ae0::53
+dns IN CNAME www
+info@electrolux.com.ar. IN AAAA 22620:149:ae0::54
+www.tienda IN cname www

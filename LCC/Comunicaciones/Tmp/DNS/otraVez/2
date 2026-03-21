@@ -1,0 +1,88 @@
+named.conf ns1
+
+zone "netflix.ar"{
+    type master;
+    file "etc/bind/db.netflix";
+    allow-trasansfer {slaves};
+    allow-query {any};
+}
+
+zone "147.13.200.in-addr.arpa"{
+    type master;
+    file "etc/bind/rev.netflix";
+}
+
+;--------------------------------
+named.conf ns2
+
+zone "netflix.ar"{
+    type slave;
+    masters {200.13.147.60}
+    file "etc/bind/db.netflix";
+}
+
+;--------------------------------
+db.netflix 
+
+$TTL 1D
+$ORIGIN netflix.ar 
+
+@ IN SOA NS1 HOSTMASTER (   2020111801
+                            5m
+                            15h
+                            3W12h
+                            2h20m)
+        IN NS ns1
+        IN NS ns2.lucifer
+        IN MX 10 mx
+        IN MX 20 mx.lucifer
+
+www IN A 200.13.147.60
+ns1 IN CNAME www
+ns2.lucifer IN A 200.13.147.90
+mx IN A 200.13.147.59
+mx.lucifer IN A 200.13.147.113
+
+;-----------------------------
+db.netflix en ns2
+
+$TTL 1D
+$ORIGIN netflix.ar
+
+@ IN SOA ns2.lucifer lucifer (2020111801
+                                5m
+                                15h
+                                3W12h
+                                2h) 
+        IN NS ns1
+        IN NS ns2.lucifer
+        IN MX 10 mx
+        IN MX 20 mx.lucifer
+
+www IN A 200.13.147.60
+ns1 IN CNAME www
+ns2.lucifer IN A 200.13.147.90
+mx IN A 200.13.147.59
+mx.lucifer IN A 200.13.147.113
+
+;------------------------
+rev.netflix en ns1
+
+$TTL 1D
+$ORIGIN 147.13.200.IN-ADDR.ARPA
+
+@ IN SOA ns1.netflix.ar. hostname.netflix.ar. (2020111801
+                                                5h
+                                                15m
+                                                3W12h
+                                                2h)
+        IN NS ns1.netflix.ar.
+        IN NS ns2.lucifer.netflix.ar.
+        IN MX 10 mx.netflix.ar.
+        IN MX 20 mx.lucifer.netflix.ar.
+
+60 IN PTR ns1.netflix.ar.
+60 IN PTR www.netflix.ar.
+90 IN PTR ns2.lucifer.netflix.ar.
+59 IN PTR mx.netflix.ar.
+113 IN PTR mx.lucifer.netflix.ar.
