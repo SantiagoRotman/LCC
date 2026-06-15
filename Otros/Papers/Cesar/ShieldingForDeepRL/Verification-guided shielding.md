@@ -1,0 +1,8 @@
+Nuevo enfoque para [[Safe Deep Reinforcement Learning]] que combina [[RL Shielding]] y [[RL Verification]]. Usa métodos formales y probabilisticos para particionar el espacio de entrada en regiones safe y unsafe. La idea es que se pueda identificar que estamos en una region unsafe y activar el shield, esto ahora recursos en runtime
+
+La forma marcada en el paper [[RLJ_RLC_2024_224.pdf]] indica 5 pasos claros:
+1) **Domain Splitting:** Usa un algoritmo de verificacion para encontrar las regiones del espacio de estados donde el agente DRL es fue probado seguro. Dado que encontrar este espacio es P-Hard, se usa una heuristica que trata de subestimar el espacio seguro.
+2) **Formal Verification of Safe Regions:**  Se usa un algoritmo de verificación para probar que las zonas marcadas previamente como probablemente seguras lo sean. Si se encuentra un contra-ejemplo entonces la zona se marca como insegura
+3) **Clustering:** El proceso hasta ahora nos dejo con muchas regiones donde al menos un estado fue probado inseguro. Chequear si un estado esta dentro de estas regiones puede ser costoso, por lo que se aplica clustering aglomerativo para concatenar estas regiones, sobre-aproximando el espacio inseguro. 
+4) **Symbolic Representation:**  Se codifican todas las regiones unsafe en formulas lógicas, la formula resultante puede ser reducida mas aun por solvers comunes.
+5) **Shield Synthesis and Execution:** 
