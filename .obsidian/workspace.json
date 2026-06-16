@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "941a4727122d8ec3",
+        "id": "dac3a365cdcb9a75",
         "type": "tabs",
         "children": [
           {
-            "id": "c1ea1f6f8d840148",
+            "id": "edae8a76aa75bbc6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -173,7 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 967.5
+    "width": 542.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,26 +194,39 @@
   },
   "active": "31af79d14ef61dd4",
   "lastOpenFiles": [
-    "LCC/Comunicaciones/Practica/IPv4/Practica_N2_v2.pdf",
+    "Otros/Papers/Cesar/ShieldingForDeepRL/Verification-guided shielding.md",
+    "Otros/Papers/Cesar/ShieldingForDeepRL/RLJ_RLC_2024_224.pdf",
+    "Otros/Papers/Cesar/ShieldingForDeepRL",
+    "Otros/Papers/Cesar",
+    "Otros/Papers",
+    "Otros",
+    "Conocimiento/IA/RL/Safe DRL/Safe Deep Reinforcement Learning.md",
+    "Conocimiento/IA/RL/Safe DRL/RL Verification.md",
+    "Conocimiento/IA/RL/Safe DRL/RL Shielding.md",
+    "Conocimiento/IA/RL/Safe DRL",
+    "Conocimiento/IA/RL",
+    "Conocimiento/IA",
+    "Conocimiento",
+    "Pasted Image 20260328194034_375.png",
+    "Pasted Image 20260328183319_382.png",
+    "Charlas/CASIC2025/Ing Soft basada en la evidencia/Resumen.md",
+    "LCC/IngSoft2/SetLog/SetLog - {log}.md",
+    "LCC/Comunicaciones/IPv4.md",
+    "LCC/Comunicaciones/Biblia_de_Costa.pdf",
+    "LCC/Comunicaciones/Practica/Teoria.excalidraw.md",
+    "LCC/Comunicaciones/Practica/Teoria.md",
+    "LCC/Comunicaciones/Practica/Firewall/20241107.md",
+    "LCC/Comunicaciones/Practica/Firewall/20171130.md",
+    "LCC/Comunicaciones/Practica/DNS/5 (2024).md",
+    "LCC/Comunicaciones/Practica/DNS/1.md",
+    "LCC/Comunicaciones/Practica/IPv4/Resolucion_N2.md",
     "LCC/Comunicaciones/attachments/Pasted image 20260314164204.png",
     "Pasted Image 20260207124744_626.png",
     "Pasted Image 20260207152319_774.png",
-    "LCC/Comunicaciones/IPv4.md",
     "LCC/Comunicaciones/Capa de enlace.md",
     "LCC/Comunicaciones/attachments/Pasted image 20260314164540.png",
     "LCC/Comunicaciones/attachments/Pasted Image 20260320191234_185.png",
     "LCC/Comunicaciones/attachments/Pasted Image 20260320193738_582.png",
-    "LCC/Comunicaciones/attachments",
-    "LCC/Comunicaciones/Practica/IPv4/Resolucion_N2.md",
-    "LCC/Comunicaciones/Tmp - Acceso directo.lnk",
-    "LCC/Comunicaciones/Tmp/Resumen(Biblia de Costa).pdf",
-    "LCC/Comunicaciones/Tmp/redes_de_computadoras-freelibros-org.pdf",
-    "LCC/Comunicaciones/Tmp/PracticaResueltaClase_N1_v1.pdf",
-    "LCC/Comunicaciones/Tmp/PracticaN3_Clase.pdf",
-    "LCC/Comunicaciones/Tmp/PracticaN2_Clase.pdf",
-    "LCC/Comunicaciones/Tmp/PracticaN1_Clase.pdf",
-    "LCC/Comunicaciones/Tmp/Practica_N3_v1.pdf",
-    "LCC/Comunicaciones/Tmp/Practica_N2_v2.pdf",
     "Sin título.canvas",
     "LCC/Complementos2/Practica/Ejs/Practica1.md",
     "LCC/Complementos2/Practica/Ejs/Drawing 2026-02-07 12.39.47.excalidraw.md",
@@ -222,20 +239,7 @@
     "LCC/TMD/Tags/Visualización de datos.md",
     "LCC/TMD/Tags/Preparacion de datos.md",
     "LCC/Seguridad Informatica/Resumen.md",
-    "LCC/Seguridad Informatica/Practica/Plancha 1.md",
-    "Charlas/CASIC2025/Workshops/TMD.md",
-    "Charlas/CASIC2025/Workshops/SegInfo.md",
-    "Charlas/CASIC2025/Workshops/Innovación.md",
-    "Charlas/CASIC2025/Workshops/IA y Agentes.md",
-    "Charlas/CASIC2025/Ing Soft basada en la evidencia/Resumen.md",
-    "Templates/Source Note.md",
-    "Templates/Full Note.md",
-    "Templates 1/Source Note.md",
-    "Templates 1/Full Note.md",
-    "Untitled.md",
     "LCC/TallerTesina/attachments/Racionalidad Humana/Pasted image 20250820005506.png",
-    "LCC/TallerTesina/attachments/Racionalidad Humana/Pasted image 20250820170217.png",
-    "LCC/IngSoft2/Tags/attachments/Pasted image 20250511185607.png",
-    "LCC/IngSoft2/SetLog/attachments/Pasted image 20250720195208.png"
+    "LCC/TallerTesina/attachments/Racionalidad Humana/Pasted image 20250820170217.png"
   ]
 }
